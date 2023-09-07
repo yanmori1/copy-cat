@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daily-harvest</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://pbs.twimg.com/profile_images/1083044804764880902/TNc6ZnVV_400x400.jpg">
+</head>
+        <body>
+            <nav class="navbar background">
+                <!-- we have used list tag that is ul 
+                     to list the items-->
+                <ul class="nav-list">
+                    <li>OUR FOOD</li>
+                    <li>ABOUT</li>
+                    <li>WHERE TO FIND</li>
+                </ul>
+                <!-- we have used rightnav in order to design
+                     the seachbar properly by using CSS-->
+                <div class="rightNav">
+              <!-- the value that search bar will take is text -->
+                    <input type="text" name="search" id="search"  placeholder="  search" />
+                    <span class="search-icon"></span>
+                    <ul class="nav-list-2">
+                        <li>GIFTS</li>
+                        <li>LOG IN</li>
+                        <li>GET STARTED</li>
+                    </ul>
+                </div>
+            </nav>
+            <h1 class="log-in">LOG IN</h1>
+            <form>
+                <div class="form-group">
+                    <label class="EMAIL">EMAIL ADDRESS</label>
+                    <input type="text" name="Username" size="50" maxlength="406.33" />
+                </div>
+                <div class="form-group">
+                    <label class="password">PASSWORD</label>
+                    <input type="password" name="password" size="50" maxlength="406.33" />
+                </div>
+                <div class="form-group">
+                    <label for="remember" class="checkbox-label">Remember Me</label>
+                    <input type="checkbox" id="remember" name="remember" value="1" class="checkbox">
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+                <div class="login-button">
+                    <button class="btn">Log In</button>
+                </div>
+            </form>
+        </body>
+</html>
