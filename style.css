@@ -61,7 +61,7 @@ body {
     font-family: "Futura Now Headline Condensed Medium", sans-serif;
 }
 
-h1.log-in {
+.log-in {
     text-align: center;
     text-size-adjust: 30px;
 }
@@ -136,7 +136,7 @@ h1.log-in {
     left: 12px;
 }
 
-.btn:hover {
+.btn {
     background-color: #333;
 }
 
