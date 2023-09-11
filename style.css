@@ -145,6 +145,6 @@ h1.log-in {
     color: black;
 }
 
-.signup-link:hover {
+.signup-link {
     text-decoration: underline;
 }
