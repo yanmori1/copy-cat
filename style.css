@@ -15,31 +15,29 @@
     padding: 0;
 }
 
-.nav-list li,
-.nav-list-2 li {
+.nav-item {
     display: inline;
-    margin-right: 40px; /* Increase this value to add more spacing between options */
+    margin-right: 40px;
     color: black;
     cursor: pointer;
 }
 
-/* Increase the margin-right for the "GIFTS" tab to create more space */
 .nav-list-2 li:first-child {
-    margin-right: 50px; /* Adjust the margin to add more space between "GIFTS" and the search bar */
+    margin-right: 50px;
 }
 
 .nav-list-2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Use flexbox to control spacing */
-    align-items: center; /* Vertically align items */
+    display: flex;
+    align-items: center;
 }
 
 .nav-list-2 li {
     color: black;
     cursor: pointer;
-    margin-right: 30px; /* Adjust the margin to control spacing between items */
+    margin-right: 30px;
 }
 
 .rightNav {
@@ -47,18 +45,7 @@
     align-items: center;
 }
 
-.search-container {
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 5px;
-    margin-right: 30px; /* Increase this value to add more spacing */
-    position: relative;
-    right: 100px;
-}
-
-#search {
+.search-input {
     border: none;
     padding: 10px;
     flex-grow: 1;
@@ -66,10 +53,8 @@
     background: url('images/eye\ glass.png') no-repeat left center;
     background-size: 15px;
     background-color: #f7fafa;
-    width: 150px; /* Adjust the width to make the search bar narrower */
-    height: 20px; /* Adjust the height to make the search bar shorter */
-    position: relative;
-    right: 100px;
+    width: 150px;
+    height: 20px;
 }
 
 body {
@@ -78,108 +63,88 @@ body {
 
 h1.log-in {
     text-align: center;
+    text-size-adjust: 30px;
 }
 
-/* Add this CSS code to your style.css file */
-form {
-    margin-top: 20px; /* Add margin to create space between the form and the navigation bar */
-    text-align: center; /* Center-align the form content */
+.login-form {
+    margin-top: 20px;
+    text-align: center;
 }
 
 .form-group {
-    display: block; /* Make form groups block-level elements */
-    margin: 0 auto; /* Center-align the form groups horizontally */
-    width: 40%; /* Set the width of the form groups */
+    display: block;
+    margin: 0 auto;
+    width: 40%;
 }
 
-label {
-    display: block; /* Make labels block-level elements */
-    margin-bottom: 10px; /* Add margin between labels and input fields */
-    text-align: left; /* Align labels to the left */
+.label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
-input[type="text"],
-input[type="password"] {
-    width: 100%; /* Make the input fields expand to the full width of their container */
-    padding: 10px; /* Add padding for better spacing inside the input fields */
-    margin-bottom: 20px; /* Add margin between input fields */
-    border: 1px solid #ccc; /* Add a border for clarity */
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    height: 40px; /* Adjust the height as needed to make the input boxes taller */
+    height: 40px;
 }
 
-.form-group {
-    margin-bottom: 20px; /* Add margin between form groups */
-}
-
-/* Style for the label associated with the checkbox */
-label[for="remember"] {
-    vertical-align: center;
-    margin-right: 10px; /* Add spacing between the label and checkbox */
-    left:50px
-}
-
-/* Style for the checkbox input */
-input[type="checkbox"] {
-    width: 20px; /* Set the width of the checkbox */
-    height: 20px; /* Set the height of the checkbox */
-    vertical-align: left; /* Align the checkbox vertically with the label text */
-    margin-left: 20px; /* Add left margin to move it to the left */
-    top:-30px
-}
-
-/* Add this CSS to your existing stylesheet */
 .checkbox-label {
-    position: relative; 
-    left: 100;
-    margin: top 100px ;
+    vertical-align: right;
+    margin-right: 250px;
+    left: 250px;
 }
 
 .checkbox {
-    float: left;
-     position: relative; 
-    left: 1;
+    width: 20px;
+    height: 20px;
+    vertical-align: left;
+    margin-left: -10px;
 }
 
 .forgot-password {
-    margin-left: 10px; /* Adjust this value for spacing */
+    margin-left: 10px;
     text-decoration: none;
-    color: black; /* Set the link color to a preferred color */
+    color: black;
     position: relative;
     left: 150px;
     top: -27px;
 }
 
-.forgot-password:hover {
-    text-decoration: underline gray; /* Underline the link on hover */
+.forgot-password{
+    text-decoration: underline gray;
 }
 
-/* Style for the login button */
 .login-button {
     text-align: center;
-    margin-top: 20px; /* Adjust the margin as needed */
+    margin-top: 30px;
+    font-size: 30px;
 }
 
 .btn {
-    background-color: black; /* Set the button background color */
-    color: white; /* Set the button text color */
-    width: 520px; /* Adjust padding to make the button bigger */
+    background-color: black;
+    color: white;
+    width: 520px;
     height: 70px;
     border: none;
     cursor: pointer;
-    font-size: 18px; /* Adjust font size as needed */
+    font-size: 20px;
     position: relative;
     left: 12px;
 }
 
 .btn:hover {
-    background-color: #333; /* Change the background color on hover */
+    background-color: #333;
 }
 
+.signup-text {
+    text-decoration: none;
+    color: black;
+}
 
-
-
-
-
-
-
+.signup-link:hover {
+    text-decoration: underline;
+}
